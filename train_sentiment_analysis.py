@@ -158,10 +158,9 @@ class SentimentClassification:
         plt.xlabel('Epoch')
         plt.ylabel('Accuracy')
         plt.title('Training and Validation Accuracy')
-
         plt.tight_layout()
+        plt.savefig('training_stats.png')  # Save the plot to a file
         plt.show()
-
     def run_training(self):
         data = self.load_data()
         self.tokenizer = DistilBertTokenizer.from_pretrained('distilbert-base-uncased')
