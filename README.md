@@ -1,5 +1,4 @@
 # Sentiment-Classification-with-DistilBERT
-# Sentiment Classification with DistilBERT
 
 ## Introduction
 
