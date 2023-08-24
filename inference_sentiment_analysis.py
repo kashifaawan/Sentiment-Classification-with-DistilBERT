@@ -29,6 +29,10 @@ def main():
     parser.add_argument("--test_file", type=str, default=None, help="Path to the test data file (default: None)")
     parser.add_argument("--model_dir", type=str, default="distillbert_sentiment_model", help="Directory containing the trained model (default: 'distillbert_sentiment_model')")
     args = parser.parse_args()
+    # Check for GPU availability
+    device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
+    print(f"Using device for inference: {device}")
+    model = DistilBertForSequenceClassification.from_pretrained(model_dir).to(device)  # Move the model to the specified device
 
     # Load the trained model and tokenizer
     model_dir = args.model_dir
