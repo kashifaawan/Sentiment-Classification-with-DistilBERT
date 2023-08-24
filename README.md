@@ -3,8 +3,7 @@
 ## Introduction
 
 This repository contains code for training a sentiment analysis model using the DistilBERT architecture. The model is designed to classify text as either positive or negative sentiment. 
-
-In this project, DistilBERT model was used to perform sentiment analysis. Detail instructions are provided on how to train your own sentiment analysis model using this code.
+Detail instructions are provided on how to train your own sentiment analysis model using this code.
 
 ## Methodology
 
