@@ -5,7 +5,7 @@
 
 This repository contains code for training a sentiment analysis model using the DistilBERT architecture. The model is designed to classify text as either positive or negative sentiment. 
 
-In this project, we present our approach to fine-tuning the DistilBERT model for sentiment analysis. We also provide instructions on how to train your own sentiment analysis model using this code.
+In this project, DistilBERT model was used to perform sentiment analysis. Detail instructions are provided on how to train your own sentiment analysis model using this code.
 
 ## Methodology
 
@@ -13,7 +13,7 @@ In this project, we present our approach to fine-tuning the DistilBERT model for
 
 The training dataset used in this project consists of labeled text data, where each sample is assigned a sentiment label (positive or negative). The dataset was obtained from [source link](https://github.com/laxmimerit/IMDB-Movie-Reviews-Large-Dataset-50k). It includes two Excel files, 'train.xlsx' and 'test.xlsx', each containing 25,000 movie reviews and their corresponding sentiment labels.
 
-Before feeding the data to the model for training, we performed several data preprocessing steps, including text tokenization, padding, and label mapping. This preprocessing ensures that the data is in the appropriate format for training the sentiment analysis model.
+Before feeding the data to the model for training, several data preprocessing steps were executed, including text tokenization, padding, and label mapping. This preprocessing ensures that the data is in the appropriate format for training the sentiment analysis model.
 
 ### Model Architecture
 
