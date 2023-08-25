@@ -51,6 +51,16 @@ Replace `<batch_size>`, `<num_epochs>`, `<path_to_train_file>`, and `<output_dir
 - scikit-learn
 - matplotlib
 
+## Download trained Model
+
+You can download the fine-tuned DistilBERT sentiment analysis model from the following link:
+
+[Download Model](https://drive.google.com/file/d/1R29vyVtVdu0xKbwg1DEF7OhPRIRdKWKY/view?usp=drive_link)
+
+The model can be loaded for inference using the provided `inference_sentiment_analysis.py` script. If you need assistance with loading the model, please refer to the [Inference](#inference-with-inference_sentiment_analysispy) section for usage instructions.
+
+Note: Ensure that extracted model is placed in your working directory, otherwise specify appropriate path for it in `inference_sentiment_analysis.py`.
+
 ## Inference with inference_sentiment_analysis.py
 
 To perform sentiment analysis on new text data or evaluate the model on a test dataset, you can use the inference_sentiment_analysis.py script. 
